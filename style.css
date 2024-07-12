@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+    --color-primario: #80ed99;
+    --color-secundario: #22577a;
+    --color-fondo: #38a3a5;
+    --color-hover: #57cc99;
+
+    --fuente-Inter: "Inter", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fuente-Inter);
+}
+body{
+    background-color: var(--color-fondo);
+    height: 100%;
+    /*text-decoration: none;*/
+}
+.btn-copiar{
+    visibility: hidden;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <a href="">
+            <img src="" alt="Logo">
+        </a>
+        <h1>Encriptador de Texto</h1>
+    </header>
+    <main class="root">
+        <section class="contenedor">
+            <textarea class="texto-encriptador" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="contenedor-aviso">
+                <img src="" alt="Icono">
+                <p class="texto-aviso">Solo letras minúsculas, sin acentos y/o caracteres especiales</p>
+            </div>
+            <div class="contenedor-botones">
+                <button type="submit" class="btn-encriptar" id="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar" id="btn-desencriptar">Desencriptar</button>
+                <button type="submit" class="btn-limpiar" id="btn-limpiar">Limpiar</button>
+            </div>
+        </section>
+        <aside class="aside">
+            <div class="aside-contenedor">
+                <p class="texto-aside-1">Mensaje no encontrado</p>
+                <p class="texto-aside-2">Ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="texto-desencriptador" readonly></textarea>
+            <button type="submit" class="btn-copiar" id="btn-copiar">Copiar</button>
+        </aside>
+    </main>
+    <footer class="foot">
+        <p>Desarrollado por JuanJGDev</p>
+        <p>Oracle One</p>
+        <a href="https://github.com/JdJara11/Encriptador">
+            <img src="" alt="Logo GitHub">
+        </a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
